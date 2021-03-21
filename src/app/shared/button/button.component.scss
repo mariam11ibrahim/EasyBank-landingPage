@@ -1,0 +1,13 @@
+@import "./../../../styles.scss";
+button{
+    background-color:$Dark_Blue ;
+    border-radius: 20px;
+    // padding: 5px 30px 8px;
+    color:$Light_Grayish_Blue;
+    background-image: $Gradient;
+}
+button:hover{
+    color:$White;
+    opacity:.6 ;
+
+}

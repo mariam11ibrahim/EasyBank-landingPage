@@ -1,0 +1,108 @@
+@import "./../../styles.scss";
+
+
+main{
+  position: relative;
+}
+
+// first section
+.first-section {
+  height: 100%;
+  background: $Very_Light_Gray url("./../../assets/images/bg-intro-desktop.svg")
+    no-repeat;
+  background-position: 39vw -30vh;
+
+  p {
+    margin: 0.2%;
+  }
+
+  .h1 {
+    font-weight: $Regular-font;
+  }
+}
+.intro {
+  margin-top: 13%;
+}
+article {
+  margin-bottom: 5%;
+}
+.img-container {
+  height: 100%;
+}
+
+.mobile {
+  margin: 0px;
+  position: relative;
+  width: 600px;
+  margin-left: 20%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 770px) {
+  .intro {
+    order: 2;
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 7%;
+  }
+  .mobile {
+    order: 1;
+    width: 40%;
+    margin-left: 35%;
+  }
+  .first-section {
+    background-position: 0vw -70vh;
+  }
+}
+//-------end first section
+
+//second section
+
+.second-section {
+  background-color: $Light_Grayish_Blue;
+  padding: 5%;
+
+  h2 {
+    font-weight: $Regular-font;
+    color: $Dark_Blue;
+  }
+  p {
+    margin: 0.2%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .second-section {
+    text-align: center;
+  }
+}
+//-------end first section
+
+// third section
+
+.third-section {
+  
+  padding: 5%;
+  background-color: $Very_Light_Gray;
+  p {
+    margin: 0.2%;
+  }
+h2{
+  font-weight: $Regular-font;
+  color:$Dark_Blue
+}
+
+}
+@media only screen and (max-width: 770px) {
+  .third-section {
+    text-align: center;
+   .row{
+    div{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 3%;
+    }
+   }
+   
+  
+  }
+}

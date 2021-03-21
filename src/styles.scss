@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+$Dark_Blue: hsl(233, 26%, 24%);
+$Lime_Green: hsl(136, 65%, 51%);
+$Bright_Cyan: hsl(192, 70%, 51%);
+$Grayish_Blue: hsl(233, 8%, 62%);
+$Light_Grayish_Blue: hsl(220, 16%, 96%);
+$Very_Light_Gray: hsl(0, 0%, 98%);
+$White: hsl(0, 0%, 100%);
+
+$Gradient: linear-gradient(to right, $Lime_Green , $Bright_Cyan);
+$Light-font:300;
+$Regular-font:400;
+$Bold-font:700;
+
+// Family: Public Sans
+// Weights: 300, 400, 700
+
+.muted-text{
+ color:$Grayish_Blue;
+ font-size :18px;
+}
+.dark-text{
+    color:$Dark_Blue
+}
+.light-text{
+    color:$White;
+}
+body,html{
+    height:100%;
+    overflow-x: hidden;
+
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;  
+}

@@ -1,0 +1,64 @@
+@import "./../../../styles.scss";
+
+footer {
+  background-color: $Dark_Blue;
+  font-size: 14px;
+  padding: 4% 7%;
+  font-weight: $Regular-font;
+}
+
+.icons {
+    margin-left: -45px !important;
+    margin-top:20%;
+
+  i {
+    list-style: none;
+    display: inline;
+    margin: 5px;
+    font-size: 22px;
+    color: $Very_Light_Gray;
+  }
+
+}
+.nav {
+  color: $White;
+  display: block !important;
+
+  li {
+    margin-bottom: 7%;
+  }
+}
+
+p {
+  color: $Very_Light_Gray;
+}
+li:hover,i:hover{
+  color: $Lime_Green  !important;
+  cursor: pointer;
+}
+
+.attribution {
+  color: $White;
+  font-size: 12px;
+  a{
+    color:$Lime_Green
+  }
+}
+
+
+@media only screen and (max-width: 770px) {
+  footer {
+
+    text-align: center;
+    .icons {
+        display: block;
+        margin-top:5%
+    }
+    .nav{
+li{
+    margin-bottom: 3%;
+}
+    }
+
+  }
+}

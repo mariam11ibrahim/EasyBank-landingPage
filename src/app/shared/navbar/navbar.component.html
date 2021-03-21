@@ -1,0 +1,35 @@
+
+  <ul class="list-group w-75" *ngIf="!isNavMenueHidden" >
+    <li class="list-group-item">Home</li>
+    <li class="list-group-item">About</li>
+    <li class="list-group-item">Contact</li>
+    <li class="list-group-item">Blog</li>
+    <li class="list-group-item">Career</li>
+  </ul>
+
+
+<nav class="row justify-content-around">
+    <!-- logo -->
+  <div class="logo offset-1 col">
+  <a href="#">  <img src="../../../assets/images/logo.svg" alt="logo" />
+  </a> </div>
+  <!-- nav items -->
+  <div class="col-4">
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+    <li>Blog</li>
+    <li>Career</li>
+  </div>
+<!-- button -->
+<div class="button offset-1 col">
+  <app-button buttonTitle="Request Invite"></app-button>
+</div>
+<div class="icon-hamburger m-2 mx-5">
+  <i  class="icon-hamburger fas fa-bars" (click)="toggleNav()" ></i>
+
+</div>
+
+</nav>
+
+

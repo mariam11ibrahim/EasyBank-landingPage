@@ -1,0 +1,26 @@
+@import "./../../../styles.scss";
+.card {
+  border: 0;
+  width: 270px;
+}
+.card-title {
+  color: $Dark_Blue;
+  font-weight: $Regular-font;
+  cursor: pointer;
+}
+.card-title:hover {
+  color: $Lime_Green;
+}
+small {
+  font-size: 13px !important;
+  // font-weight: $Regular-font;
+}
+p {
+  font-size: 14px !important;
+}
+figure {
+  overflow: hidden;
+  height: 180px;
+}
+@media only screen and (max-width: 770px) {
+}

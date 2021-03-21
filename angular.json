@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "easybank-landing-page"
+  "defaultProject": "easybank-landing-page",
+  "cli": {
+    "analytics": false
+  }
 }
