@@ -43,6 +43,7 @@ Users should be able to:
 - BootStrap4
 - [FontAwesome](https://fontawesome.com/)
 - Mobile-first workflow
+- JavaScript
 - TypeScript
 - [Angular](https://angular.io/) - JS Framework
 
