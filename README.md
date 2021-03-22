@@ -26,13 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
+![](./EasyBank-landing-page.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://mariam11ibrahim.github.io/easyBank-LandingPage/)
 
 ## My process
 
@@ -56,9 +55,6 @@ Users should be able to:
 
 
 ## Author
-
-- Website - [Mariam Ibrahim](https://www.your-site.com)
-- Frontend Mentor - [mariam](https://www.frontendmentor.io/profile/yourusername)
 - Linked in - [Mariam Ibrahim ](https://www.linkedin.com/in/mariam11ibrahim/)
 
 
